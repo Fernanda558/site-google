@@ -1,6 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /*MARGEM*/
+    padding: 0; /*ESPAÇAMENTO INTERNO*/
+    font-family: Arial, sans-serif; /*TIPODA FONTE/FAMILIA*/
+    font-size: 13px; /*tamanho da fonte*/
 }
 
 
@@ -27,6 +29,13 @@ a{  /*TAG LINK/ANCORA*/
     fill: #444746; /*COR PREENCHIMENTO*/
 }
 
-footer{
+footer{ /*SELETOR DA TAG FOOTER/RODAPÉ*/
     background-color: #F2F2F2; /*COR DO FUNDO*/
+}
+.caixa-rodape{
+    padding: 15px 30px;
+}
+
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0; /*BORDA INFERIOR*/
 }
